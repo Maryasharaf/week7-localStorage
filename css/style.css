@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', 'sans-serif';
+}
+
+.container {
+    height: 400px;
+    width: 300px;
+    border: 1px solid rgb(25, 25, 59);
+    border-radius: 5px;
+    margin: 10rem auto;
+    text-align: center;
+    background: linear-gradient(rgba(63, 179, 169, 0.616), rgba(8, 22, 94, 0.507)),
+    url('../images/pexels-karla-de-león-17722678.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container > input, .container button {
+    display: block;
+    margin: 1rem auto;
+
+}
+
+.container button {
+    width: 5rem;
+    padding: 0.3rem;
+    color: rgb(13, 107, 13);
+    background-color: rgb(142, 206, 235);
+}
+
+.container h3 {
+    margin: 2rem;
+    color: azure;
+    text-transform: capitalize;
+}
+
+.container p {
+    color: rgb(171, 194, 230);
+    font-size: 2rem;
+    display: inline;
+}
